@@ -14,7 +14,6 @@ namespace FunctionalProgramming
 
             Console.Write("\n\n");
             Console.Write("Calculate the harmonic series and their sum:\n");
-            Console.Write("----------------------------------------------");
             Console.Write("\n\n");
 
             Console.Write("Input the number of terms : ");

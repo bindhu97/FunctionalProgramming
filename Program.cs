@@ -7,6 +7,14 @@ namespace FunctionalProgramming1
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Calling Prime Factor");
+            PrimeFactor primeFactor = new PrimeFactor();
+            primeFactor.Factor();
+
+            Console.WriteLine("Calling Power Of Two");
+            PowerOfTwo powerOfTwo = new PowerOfTwo();
+            powerOfTwo.Power();
+
             Console.WriteLine("Calling for Largest Number Among Three");
             LargestNumberAmongThree largestNumberAmongThree = new LargestNumberAmongThree();
             largestNumberAmongThree.LargestNumber();
