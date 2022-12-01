@@ -1,21 +1,21 @@
-﻿using System;
+﻿using FunctionalProgramming;
+using System;
 
-namespace FunctionalProgramming
+namespace FunctionalProgramming1
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter Year : ");
+            Console.WriteLine("Calling Harmonic Number");
 
-            int Year = int.Parse(Console.ReadLine());
+            Console.WriteLine("Calling Quotient reminder");
+            QuotientAndRemindercls quotientAndRemindercls =new QuotientAndRemindercls();
+            quotientAndRemindercls.QuotientAndReminder();
 
-            if (((Year % 4 == 0) && (Year % 100 != 0)) || (Year % 400 == 0)) Console.WriteLine("{0} is a Leap Year.", Year);
-
-            else
-            {
-                Console.WriteLine("{0} is not a Leap Year.", Year);
-            }
+            Console.WriteLine("Calling Leap Year");
+            LeapYear xyz = new LeapYear();
+            xyz.leap();
 
             Console.ReadLine();
         }
