@@ -7,6 +7,10 @@ namespace FunctionalProgramming1
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Calling EvenOrOdd");
+            EvenOrOdd evenOrOdd = new EvenOrOdd();
+            evenOrOdd.Even();
+
             Console.WriteLine("Calling Swap Two Numbers");
             SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
             swapTwoNumbers.Swap();
