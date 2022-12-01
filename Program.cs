@@ -7,6 +7,10 @@ namespace FunctionalProgramming1
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Calling Swap Two Numbers");
+            SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
+            swapTwoNumbers.Swap();
+
             Console.WriteLine("Calling Harmonic Number");
             HarmonicNumber harmonicNumber = new HarmonicNumber();
             harmonicNumber.Harmonic();
