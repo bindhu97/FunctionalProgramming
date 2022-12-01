@@ -7,6 +7,10 @@ namespace FunctionalProgramming1
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Calling VowelOrConsonant");
+            VowelOrConsonant vowelOrConsonant = new VowelOrConsonant();
+            vowelOrConsonant.Vowel();
+
             Console.WriteLine("Calling EvenOrOdd");
             EvenOrOdd evenOrOdd = new EvenOrOdd();
             evenOrOdd.Even();
