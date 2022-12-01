@@ -7,6 +7,10 @@ namespace FunctionalProgramming1
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Calling Flip Coin");
+            FlipCoin flipCoin = new FlipCoin();
+            flipCoin.CoinFlipping();
+
             Console.WriteLine("Calling Prime Factor");
             PrimeFactor primeFactor = new PrimeFactor();
             primeFactor.Factor();
