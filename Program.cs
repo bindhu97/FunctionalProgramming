@@ -7,6 +7,10 @@ namespace FunctionalProgramming1
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Calling for Largest Number Among Three");
+            LargestNumberAmongThree largestNumberAmongThree = new LargestNumberAmongThree();
+            largestNumberAmongThree.LargestNumber();
+
             Console.WriteLine("Calling VowelOrConsonant");
             VowelOrConsonant vowelOrConsonant = new VowelOrConsonant();
             vowelOrConsonant.Vowel();
