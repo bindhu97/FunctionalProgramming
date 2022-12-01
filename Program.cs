@@ -8,6 +8,8 @@ namespace FunctionalProgramming1
         public static void Main(string[] args)
         {
             Console.WriteLine("Calling Harmonic Number");
+            HarmonicNumber harmonicNumber = new HarmonicNumber();
+            harmonicNumber.Harmonic();
 
             Console.WriteLine("Calling Quotient reminder");
             QuotientAndRemindercls quotientAndRemindercls =new QuotientAndRemindercls();
