@@ -10,9 +10,7 @@ namespace FunctionalProgramming
         {
             int num1, rem1;
 
-            Console.Write("\n\n");
             Console.Write("Check whether a number is even or odd :\n");
-            Console.Write("\n\n");
 
             Console.Write("Input an integer : ");
             num1 = Convert.ToInt32(Console.ReadLine());

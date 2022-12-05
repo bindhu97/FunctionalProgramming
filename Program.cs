@@ -7,6 +7,14 @@ namespace FunctionalProgramming1
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Calling Harmonic Number");
+            HarmonicNumber harmonicNumber = new HarmonicNumber();
+            harmonicNumber.Harmonic();
+
+            Console.WriteLine("Calling EvenOrOdd");
+            EvenOrOdd evenOrOdd = new EvenOrOdd();
+            evenOrOdd.Even();
+
             Console.WriteLine("Calling Flip Coin");
             FlipCoin flipCoin = new FlipCoin();
             flipCoin.CoinFlipping();
@@ -27,17 +35,9 @@ namespace FunctionalProgramming1
             VowelOrConsonant vowelOrConsonant = new VowelOrConsonant();
             vowelOrConsonant.Vowel();
 
-            Console.WriteLine("Calling EvenOrOdd");
-            EvenOrOdd evenOrOdd = new EvenOrOdd();
-            evenOrOdd.Even();
-
             Console.WriteLine("Calling Swap Two Numbers");
             SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
             swapTwoNumbers.Swap();
-
-            Console.WriteLine("Calling Harmonic Number");
-            HarmonicNumber harmonicNumber = new HarmonicNumber();
-            harmonicNumber.Harmonic();
 
             Console.WriteLine("Calling Quotient reminder");
             QuotientAndRemindercls quotientAndRemindercls =new QuotientAndRemindercls();
