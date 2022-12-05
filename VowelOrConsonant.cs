@@ -9,9 +9,7 @@ namespace FunctionalProgramming
         public void Vowel()
         {
             char ch;
-            Console.Write("\n\n");
             Console.Write("check whether the input alphabet is a vowel or not:\n");
-            Console.Write("\n\n");
 
             Console.Write("Input an Alphabet (A-Z or a-z) : ");
             ch = Convert.ToChar(Console.ReadLine().ToLower());
@@ -46,8 +44,7 @@ namespace FunctionalProgramming
                         break;
                 }
             }
-            Console.ReadKey();
+            Console.ReadLine();
         }
-
     }
 }
